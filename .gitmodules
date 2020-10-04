@@ -13,3 +13,6 @@
 	path = Sensing_planning_framework
 	url = https://github.com/CREATE-knowledge-planning/Sensing_planning_framework.git
 	branch = python_package
+[submodule "prism"]
+	path = prism
+	url = https://github.com/prismmodelchecker/prism.git
