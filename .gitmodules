@@ -1,0 +1,15 @@
+[submodule "simulator"]
+	path = simulator
+	url = https://github.com/CREATE-knowledge-planning/simulator.git
+[submodule "Verification"]
+	path = Verification
+	url = https://github.com/CREATE-knowledge-planning/Verification.git
+	branch = integration
+[submodule "UniKER"]
+	path = UniKER
+	url = https://github.com/CREATE-knowledge-planning/UniKER.git
+	branch = antoni_fixes
+[submodule "Sensing_planning_framework"]
+	path = Sensing_planning_framework
+	url = https://github.com/CREATE-knowledge-planning/Sensing_planning_framework.git
+	branch = python_package
