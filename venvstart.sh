@@ -9,6 +9,7 @@ if [ ! -d "$VENV_DIR" ]; then
   source "$VENV_DIR"/bin/activate && \
   python -m pip install --upgrade pip setuptools wheel && \
   python -m pip install -r simulator/requirements.txt && \
+  python -m pip install -r historical_db/requirements.txt && \
   python -m pip install -e ./Verification && \
   python -m pip install -e ./UniKER && \
   python -m pip install -e ./Sensing_planning_framework 

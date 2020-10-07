@@ -16,3 +16,12 @@
 [submodule "prism"]
 	path = prism
 	url = https://github.com/prismmodelchecker/prism.git
+[submodule "historical_db"]
+	path = historical_db
+	url = https://github.com/seakers/historical_db
+[submodule "propagator"]
+	path = propagator
+	url = https://github.com/CREATE-knowledge-planning/propagator
+[submodule "orekit"]
+	path = orekit
+	url = https://github.com/seakers/orekit
