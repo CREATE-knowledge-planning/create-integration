@@ -15,7 +15,7 @@ Clone this repo, then from within the directory:
 - `$ ./setup.sh`
 will clone all the sub-repos, then build prism
 
-Then whenever you want to run the integration code:
+Then whenever you want to run the integration code, change the NEO4J_PASSWORD to the one you just typed and run:
 - `$ ./venvstart.sh`
 will enter the python venv, setting the appropriate environment variables.  The same script will also initialize the venv if it hasn't been created yet.
 
