@@ -20,5 +20,9 @@ alias deactivate=exit
 export BASE_PATH=`dirname "$(readlink -f "$0")"`
 export PRISM_PATH="$BASE_PATH/prism/prism/bin"
 export PRISM_WSL="no"
+export NEO4J_HOST="localhost"
+export NEO4J_PORT="7687"
+export NEO4J_PASSWORD="test_create"
+export PROPAGATOR_JAR="$BASE_PATH/propagator/build/libs/propagator.jar"
 
 exec bash --init-file <(echo ". ~/.bashrc; . $VENV_DIR/bin/activate;")
