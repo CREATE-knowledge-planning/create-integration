@@ -19,7 +19,7 @@ Then whenever you want to run the integration code, change the NEO4J_PASSWORD to
 - `$ ./venvstart.sh`
 will enter the python venv, setting the appropriate environment variables.  The same script will also initialize the venv if it hasn't been created yet.
 
-Once in the virtual environment, as a first time setup, run:
+Once in the virtual environment, as a first time setup for the database, run:
 - `$ ./fill_db.sh`
 
 Finally, to run a gauntlet of simulations:
